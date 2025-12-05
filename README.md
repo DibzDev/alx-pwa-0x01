@@ -43,7 +43,7 @@ All requests should include the following headers:
 - `x-rapidapi-key`: Your API key
 
 Example request to fetch movies from 2023:
-```http
+http
 GET /titles?year=2023&limit=10&page=1&sort=year.decr HTTP/1.1
 Host: moviesdatabase.p.rapidapi.com
 x-rapidapi-key: YOUR_API_KEY_HERE
