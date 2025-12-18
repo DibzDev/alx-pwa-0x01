@@ -1,36 +1,18 @@
-alx-project-0x14
-CineSeek is a modern movie discovery application built with Next.js, TypeScript, and Tailwind CSS. The application allows users to browse movies from the MoviesDatabase API, view movie details, and search for films by year or genre. The project focuses on creating a responsive, well-structured web application with proper API integration and TypeScript typing.
+# ALX PWA Project - Cine Seek Movie App
 
-API Overview
-This project uses the OpenAI Image Generation API to create images from user-provided prompts.
-The API allows you to send text descriptions and receive high-quality AI-generated images in return.
-It supports different image sizes, formats, and models, making it flexible for creative applications.
+## 📱 Project Overview
+Cine Seek is a Progressive Web Application (PWA) built with Next.js that allows users to browse and search for movies. This project demonstrates PWA implementation including offline functionality, installability, and native app-like experience.
 
-API Version
-The current API version used in this project is 2025-01-01 (latest stable version as referenced in the OpenAI documentation).
+## 🚀 Features
+- **PWA Capabilities**: Installable on mobile and desktop devices
+- **Offline Support**: Service workers for caching and offline access
+- **Responsive Design**: Works on all device sizes
+- **Movie Discovery**: Browse and search movies
+- **Fast Performance**: Optimized with Next.js and PWA optimizations
 
-Available Endpoints
-1. POST /v1/images/generations
-Generates an image based on a text prompt.
-You send a description, and the API responds with a URL or Base64 data of the generated image.
-
-2. POST /v1/images/edits
-Allows you to upload an existing image and apply edits based on a new prompt.
-
-3. POST /v1/images/variations
-Takes an uploaded image and returns multiple variations of it.
-
-Note: The main endpoint for this project is /v1/images/generations.
-
-Request and Response Format
-A typical request looks like this:
-
-POST /v1/images/generations
-Content-Type: application/json
-Authorization: Bearer YOUR_API_KEY
-
-{
-  "model": "gpt-image-1",
-  "prompt": "A futuristic city at sunset",
-  "size": "1024x1024"
-}
+## 🛠️ Tech Stack
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **@ducanh2912/next-pwa** - PWA plugin for Next.js
+- **Webpack** - Module bundler
