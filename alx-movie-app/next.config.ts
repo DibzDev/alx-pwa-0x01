@@ -16,6 +16,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Disable Turbopack
+  turbo: undefined,
 };
 
 export default withPWA(nextConfig);
