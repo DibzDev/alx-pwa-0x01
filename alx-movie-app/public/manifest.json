@@ -1,29 +1,29 @@
-echo { > manifest.json
-echo   "name": "Cine Seek", >> manifest.json
-echo   "short_name": "CineSeek", >> manifest.json
-echo   "description": "A movie discovery PWA application", >> manifest.json
-echo   "icons": [ >> manifest.json
-echo     { >> manifest.json
-echo       "src": "/icons/android-chrome-192x192.png", >> manifest.json
-echo       "sizes": "192x192", >> manifest.json
-echo       "type": "image/png", >> manifest.json
-echo       "purpose": "any maskable" >> manifest.json
-echo     }, >> manifest.json
-echo     { >> manifest.json
-echo       "src": "/icons/apple-icon-152x152.png", >> manifest.json
-echo       "sizes": "152x152", >> manifest.json
-echo       "type": "image/png" >> manifest.json
-echo     }, >> manifest.json
-echo     { >> manifest.json
-echo       "src": "/icons/ms-icon-310x310.png", >> manifest.json
-echo       "sizes": "310x310", >> manifest.json
-echo       "type": "image/png" >> manifest.json
-echo     } >> manifest.json
-echo   ], >> manifest.json
-echo   "theme_color": "#FFFFFF", >> manifest.json
-echo   "background_color": "#FFFFFF", >> manifest.json
-echo   "start_url": "/", >> manifest.json
-echo   "display": "standalone", >> manifest.json
-echo   "orientation": "portrait", >> manifest.json
-echo   "scope": "/" >> manifest.json
-echo } >> manifest.json
+{
+  "name": "Cine Seek",
+  "short_name": "CineSeek",
+  "description": "A movie discovery PWA application",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/apple-icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/ms-icon-310x310.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/"
+}
